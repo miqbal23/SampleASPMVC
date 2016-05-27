@@ -14,7 +14,9 @@ namespace HelloMVC.Controllers
         {
             List<Person> _person = new List<Person>()
             {
-                new Person { Name = "Muhamad Iqbal", Country = "Depok" }
+                new Person { Name = "Muhamad Iqbal", Country = "Depok" },
+                new Person { Name = "Devin Brandon", Country = "Bogor" },
+                new Person { Name = "Alvin Julian", Country = "Tangerang" }
             };
             return View(_person);
         }
